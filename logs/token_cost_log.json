@@ -1,0 +1,13 @@
+{
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "llm_calls": 3,
+  "input_tokens": 1196,
+  "output_tokens": 355,
+  "total_tokens": 1551,
+  "published_input_price_usd_per_1m_tokens": 0.15,
+  "published_output_price_usd_per_1m_tokens": 0.6,
+  "estimated_input_cost_usd": 0.0001794,
+  "estimated_output_cost_usd": 0.000213,
+  "estimated_total_cost_usd": 0.0003924
+}

@@ -1,0 +1,10 @@
+case_id,route,week_of,note_id,expected_valid,expected_verdict,description
+E001,Ahmedabad-Mumbai,2025-01-20,N002,True,justified,Valid festival surcharge with high demand and limited truck availability
+E002,Chennai-Bangalore,2025-02-24,N001,True,justified,Valid flooding note explicitly states higher trip costs
+E003,Chennai-Bangalore,2025-03-03,N001,True,justified,Valid flooding note remains applicable through March 8
+E004,Chennai-Bangalore,2025-03-10,N009,False,unexplained,N009 only states route returned to normal and does not establish a cost increase
+E005,Chennai-Bangalore,2025-03-17,N009,False,unexplained,N009 states normal conditions after repairs and does not establish a cost increase
+E006,Mumbai-Delhi,2024-07-29,N005,False,unexplained,Note explicitly says costs were not significantly affected
+E007,Mumbai-Pune,2025-09-15,N006,False,unexplained,Note says stable demand and no major disruptions
+E008,Mumbai-Pune,2025-09-15,N002,False,unexplained,Wrong route note
+E009,Delhi-Jaipur,2025-08-18,,False,unexplained,No supporting context note

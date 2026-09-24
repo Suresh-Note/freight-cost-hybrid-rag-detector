@@ -1,0 +1,21 @@
+FreightTiger Reproducibility Report
+==================================================
+
+Number of runs: 3
+Deterministic fields compared:
+- route
+- week_of
+- cost_per_tonne_km
+- vs_own_history
+- vs_similar_routes
+- flagged
+- matched_note_id
+
+Results:
+- Run 1 vs Run 2: PASS
+- Run 2 vs Run 3: PASS
+
+Overall reproducibility: PASS
+
+Note:
+Explanation wording is intentionally excluded from the deterministic comparison because the case study allows explanation wording to vary.
