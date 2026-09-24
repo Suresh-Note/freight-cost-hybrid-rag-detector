@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 .env
 *.zip
+interview_script.md
